@@ -5,7 +5,7 @@ def adivina_vs_maquina():
     print("======Adivina la palabra======")
     print("======Persona Vs Maquina======")
     print("==============================\n")
-    listpalabras = "Bailar", "Correr", "Viajar", "Cocinar", "Libro", "Guitarra", "Pelicula", "Serie", "Videojuego", "Pintar", "Abogado", "Taxista", "Actriz", "Piloto", "Profesor", "Enfermera", "Doctor", "Veterinaria", "Albañil", "Panaderia", "Biblioteca", "Peluqueria", "Hospital", "Parque", "Zapateria", "Futbol", "Tenis", "Baloncesto", "Voleibol", "Natacion", "Atletismo", "Esqui", "Pantalon", "Vaquero", "Falda", "Vestido", "Abrigo", "Blusa", "Calcetines", "Sudadera", "Cinturon", "Collar", "Anillo", "Pulsera", "Bolso", "Reloj", "Gafas", "Sombrero", "Gorra"
+    listpalabras = "Bailar", "Correr", "Viajar", "Cocinar", "Libro", "Guitarra", "Pelicula", "Serie", "Videojuego", "Pintar", "Abogado", "Taxista", "Actriz", "Piloto", "Profesor", "Enfermera", "Doctor", "Veterinaria", "Albañil", "Panaderia", "Biblioteca", "Peluqueria", "Hospital", "Parque", "Zapateria", "Futbol", "Tenis", "Baloncesto", "Voleibol", "Natacion", "Atletismo", "Esqui", "Pantalon", "Vaquero", "Falda", "Vestido", "Abrigo", "Blusa", "Calcetines", "Sudadera", "Cinturon", "Collar", "Anillo", "Pulsera", "Bolso", "Reloj", "Gafas", "Sombrero", "Gorra", "Ordenador", "Escritorio", "Teclado", "Pantalla", "Ratón", "Impresora", "Papelera", "Carpeta"
     numlist = len(listpalabras)
     palabrasecret = listpalabras[random.randint(0, numlist-1)]
     nomplayer = input("Cual es tu nombre: ")
