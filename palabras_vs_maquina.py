@@ -11,7 +11,7 @@ def adivina_vs_maquina():
     nomplayer = input("Cual es tu nombre: ")
     nomplayer = nomplayer.title()
     nomplayer = nomplayer.split()[0]
-    print(f"{nomplayer} tienes tienes que adivinar la palabra secreta")
+    print(f"{nomplayer} tienes que adivinar la palabra secreta")
     print("Tienes tres intentos")
     print("Nota: Todas la palabras introducidas por la maquina son en singular")
     partes = [palabrasecret[i:i+len(palabrasecret)//3] for i in range(0, len(palabrasecret), len(palabrasecret)//3)]
