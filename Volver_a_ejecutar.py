@@ -9,7 +9,8 @@ def programa():
 
     while True:
         try:
-            desci1 = int(input("Ingresa el numero correspondiente a la opción elegida: \n"))
+            desci1 = int(input("Ingresa el numero correspondiente a la opción elegida: "))
+            print(" ")
             if desci1 < 3 and desci1 > 0:
                 break
             else:
@@ -23,7 +24,8 @@ def programa():
         print("2.Jugar contra una persona")
         while True:
             try:
-                desci2 = int(input("Intoduce el numero correspondiente a la opción elegida: \n"))
+                desci2 = int(input("Intoduce el numero correspondiente a la opción elegida: "))
+                print(" ")
                 if desci2 < 3 and desci2 > 0:
                     break
                 else:
@@ -42,7 +44,8 @@ def programa():
         print("2.Jugar contra una persona")
         while True:
             try:
-                desci2 = int(input("Intoduce el numero correspondiente a la opción elegida: \n"))
+                desci2 = int(input("Intoduce el numero correspondiente a la opción elegida: "))
+                print(" ")
                 if desci2 < 3 and desci2 > 0:
                     break
                 else:
